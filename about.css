@@ -1,0 +1,147 @@
+body{
+    background-color:white;
+    color: black;
+margin: 0;
+padding: 0;
+font-style:italic;
+font-family: sans-serif;}
+header{
+    background-color: black;
+    color: whitesmoke;
+ padding: 20px;
+ text-align: center;
+ /*background-image: url("pics/zfront/23.jpg");
+ height: 50px;
+ background-size: 100%;
+ background-position: center;
+ background-repeat:no-repeat ;
+*/
+}
+.ul1 li{
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 0.5cm ;
+
+}
+.ul1 li:hover{
+    text-decoration: underline;
+    
+}
+.ul1 li a{
+    color: white;
+    margin: 20px;
+    text-decoration:none;
+
+
+}
+header .logo a{
+  
+    background-image: url("pics/zfront/b.png");
+    background-size: 170px;
+    
+height: 200px;
+width: 169px;
+background-repeat: no-repeat;
+    display: inline-block;
+    text-indent:-999999999999999999px;
+    position: absolute;
+    margin: -50px 15px 15px 1350px;
+    left: 0;
+    display:inline;
+}
+.ul1 li:first-child{
+    margin-left: -750px;   
+   }
+   header .gif a{
+       background-image: url("pics/zfront/1Pqq.gif");
+       height: 90px;
+       width: 700px;
+       background-repeat: no-repeat;
+       text-indent: -99999999999999999999999999px;
+       position: absolute;
+       margin: -50px 15px 15px 800px;
+       left: 0;
+       display: inline;
+   }
+   section {
+
+font-size: 0.5cm;
+font-style: normal;
+   }
+   section h1{
+       text-decoration: underline;
+       font-style: normal;
+       font-size: 1cm;
+   }
+  
+
+   
+   section h2{
+       font-weight: lighter;
+   }
+
+   footer{
+    background-color: black;
+    padding: 10px 20px;
+    color:white;
+}
+footer div {
+    text-align: center;
+  
+}
+footer div h1{
+    text-decoration-line: underline;
+    font-size: 1cm;
+    font-style: normal;
+}
+
+
+footer li{
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 0.5cm ;
+    text-align: center;
+
+}
+
+footer li:hover{
+    text-decoration: underline;
+    
+}
+footer li a{
+    color:white;
+    margin: 50px;
+    text-decoration:none;
+    font-size: 1cm;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+footer ul{
+    text-align: center;
+}
+footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+  footer .fa:hover {
+      opacity: 0.7;
+  }
+  footer .fa-facebook {
+    background: black;
+    color: white;
+  }
+  footer .fa-twitter {
+    background: black;
+    color: white;
+  }
+  footer .fa-instagram {
+    background: black;
+    color: white;
+  }
